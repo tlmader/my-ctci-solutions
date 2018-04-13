@@ -7,9 +7,6 @@
  * N = |str|
  * Time - O(N)
  * Additional space - O(N)
- *\
- * @param  {string} str The string to be compressed
- * @return {string}      The compressed string or the original if shorter
  */
 export const compressString = (str) => {
   if (!str || !str.length) {

@@ -5,10 +5,6 @@
  * N = |strA| && M = |strB|
  * Time: O(N + M)
  * Additional space: O(N)
- *
- * @param  {string[]} strA First string, passed in as a character array
- * @param  {string[]} strB Second string, passed in as a character array
- * @return {boolean}       True if first and second strings are permutations otherwise false
  */
 export const isPermutation = (strA, strB) => {
   const map = new Map();

@@ -4,9 +4,6 @@
  * N = |url|
  * Time: O(N)
  * Additional space: O(N) ?
- *
- * @param  {string[]} url URL string as a character array which will be updated in place
- * @return {string[]}     Updated URL character array
  */
 export const encodeSpacesReduce = (url) => (
   url
@@ -23,9 +20,6 @@ export const encodeSpacesReduce = (url) => (
  * N = |url|
  * Time: O(N)
  * Additional space: O(1)
- *
- * @param  {string[]} url URL string as a character array which will be updated in place
- * @return {string[]}     Updated URL character array
  */
 export const encodeSpacesInPlace = (url) => {
   if (!url || !url.length) {

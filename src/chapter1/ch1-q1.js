@@ -5,9 +5,6 @@
  * N = |str|
  * Time: O(N)
  * Additional space: O(N)
- *
- * @param  {string[]} str String to check, passed in as a character array
- * @return {boolean}      True if unique characters, otherwise false
  */
 export const hasAllUniqueCharacters = (str) => {
   const set = new Set();

@@ -6,10 +6,6 @@
  * N = |strA| && M = |strB|
  * Time: O(N)
  * Additional space: O(1)
- *
- * @param {string[]} strA String to check as a character array
- * @param {string[]} strB String to check as a character array
- * @return {boolean}      True if input string is a permutation of a palindrome (ignoring spaces), otherwise false
  */
 export const isOneEditAway = (strA, strB) => {
   // if lengths differ by more than 1 then can't be true

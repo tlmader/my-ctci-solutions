@@ -4,9 +4,6 @@
  * N = |matrix| && M = |matrix[0]|
  * Time: O(N * M)
  * Additional space: O(N + M)
- *
- * @param  {array} matrix NxN matrix to rotate in place
- * @return {array}        Rotated matrix, same object as input
  */
 export const rotate = (matrix) => {
   if (!matrix || matrix.length === 0) {
